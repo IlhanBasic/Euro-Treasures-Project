@@ -14,5 +14,5 @@ Node.js: Backend server for data handling and APIs.
 # How to Use
 Access the Website:
 Visit the website directly at (https://eurotreasure.netlify.app/)
-Contributions
+# Contributions
 Contributions and feedback are welcome! If you have suggestions or want to contribute to the project, please contact us or submit a pull request on GitHub.
