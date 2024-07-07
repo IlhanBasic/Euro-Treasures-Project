@@ -1,0 +1,403 @@
+.html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* navbar  */
+.navbar-brand {
+    height: 5.5em;
+    width: 10em;
+}
+
+.nav-link {
+    font-weight: 500;
+
+}
+
+@media (min-width: 991px) and (max-width: 1152px) {
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+}
+
+/* kraj navbara  */
+
+
+/* footer  */
+.footerBtn {
+    color: #ffffff;
+    margin-left: 0.5em;
+}
+
+.subscription-form .footerBtn {
+    width: 100%;
+    max-width: 100%;
+}
+
+.footerBtn:hover {
+    color: #0F044C;
+    background-color: #ffffff;
+    border-color: #0F044C;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.form-inline .btn {
+    border-radius: 20px;
+}
+
+
+footer {
+    background-color: #141E61;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.subscription-form h3 {
+    color: #fff;
+}
+
+.footer-copy a {
+    color: #fff;
+}
+
+.newsletter,
+.social,
+.mission {
+    margin-bottom: 1rem;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .footerBtn {
+        margin: 1em;
+    }
+}
+
+/* kraj footera  */
+
+/* kartice  */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+/* VRLO VAZNO ZBOG KARTICA U SEARCHU*/
+.card img,
+.rtu img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: -1px -5px 54px 0px rgba(120, 122, 145, 0.75) !important;
+    -webkit-box-shadow: -1px -5px 54px 0px rgba(120, 122, 145, 0.75) !important;
+    -moz-box-shadow: -1px -5px 54px 0px rgba(120, 122, 145, 0.75) !important;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.bestMuseum {
+    padding: 20px 0 10px 0;
+}
+
+.bestMuseum h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bestMuseum .card {
+    border-radius: 15px !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.bestMuseum .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.bestMuseum .card-text {
+    text-align: center;
+}
+
+.suggestMuseum {
+    padding: 20px 0 10px 0;
+}
+
+.suggestMuseum h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.suggestMuseum .card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.suggestMuseum .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.suggestMuseum .card-text {
+    text-align: center;
+}
+
+.monthMuseum {
+    padding: 20px 0 10px 0;
+}
+
+.monthMuseum h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.monthMuseum img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.monthMuseum p {
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width:590px) {
+
+    .card,
+    .monthMuseum {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .monthMuseum h1,
+    p {
+        margin: auto;
+    }
+
+    .monthMuseum p {
+        font-size: 1rem;
+    }
+}
+
+.museumLink {
+    color: black;
+}
+
+.museumLink:hover {
+    text-decoration: none;
+    color: #33419b;
+}
+
+/* kraj kartica  */
+
+/* fontovi i velicine  */
+@media (max-width: 768px) {
+    .cultureHeader {
+        font-size: 1.2rem;
+    }
+
+    .newsInfo {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .newsInfo {
+        font-size: 0.8rem !important;
+    }
+
+    .cultureHeader {
+        font-size: 1.2rem !important;
+    }
+    .artHeader{
+        font-size: 2.5rem;
+    }
+}
+
+.cultureHeader {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.newsInfo {
+    line-height: 1.5;
+}
+.artHeader {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* kraj za fontove  */
+
+/* dugme za vrh  */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+/* banner  */
+.bannerHome {
+    position: relative;
+    background-image: url(museumBanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    color: white;
+}
+
+.bannerHome::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bannerContent {
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: auto;
+    margin-top: 200px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: auto;
+    margin: auto;
+}
+
+.programsHeader1 {
+    font-size: 7em;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: -5px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.programsHeader2 {
+    /* margin-top: -17px; */
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: -5px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.aBtn {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    border: 4px solid #fff;
+    text-align: center;
+    outline: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    margin: 0.3em;
+
+}
+
+.aBtn:hover,
+.aBtn:active {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+@media only screen and (max-width: 920px) {
+    .bannerContent {
+        margin-top: 100px;
+    }
+
+    .programsHeader1 {
+        font-size: 3.5rem
+    }
+
+    .programsHeader2 {
+        font-size: 1.5rem
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .bannerHome {
+        background-position: top;
+    }
+    .bannerContent {
+        margin-top: 150px;
+    }
+
+    .programsHeader1 {
+        font-size: 3em;
+    }
+
+    .programsHeader2 {
+        font-size: 1.4em;
+    }
+    .artHeader{
+        font-size: 2rem;
+    }
+}
+/* kraj bannera  */
+/* Google Translate element */
+body{
+    top:0px !important;
+}
+#google_translate_element {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+
+#google_translate_element img {
+    display: none;
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#google_translate_element a {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 40px;
+    text-decoration: none;
+}
+
+#google_translate_element span {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+}
+/* kraj google-translate  */

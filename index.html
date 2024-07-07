@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>EuroTreasure-Discover European Culture</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="./home/style.css">
+</head>
+
+<body>
+    <!-- pocetak navbara -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#">
+            <img src="./home/logo.png" alt="logo" class="navbar-brand">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item d-flex align-items-center">
+                    <div id="google_translate_element" class="text-center"></div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        EXPLORE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./dist/exhibitions.html">EXHIBITIONS</a>
+                        <a class="dropdown-item" href="./dist/events.html">EVENTS</a>
+                        <a class="dropdown-item" href="./dist/museums.html">MUSEUMS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./dist/contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item target">
+                    <a class="nav-link" href="./dist/login.html" id="loginLink">LOG IN/JOIN</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input type="search" placeholder="Search" aria-label="Search" id="searchInput"
+                        class="form-control mr-sm-2">
+                    <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+    <!-- zavrsetak navbara -->
+
+    <!-- banner  -->
+    <div class="container-fluid bannerHome">
+        <div class="row text-center bannerContent ">
+            <div class="col">
+                <h1 class="programsHeader1">EUROTERASURE</h1>
+                <h2 class="programsHeader2">European Museums and Galleries: Historical Beauties and Cultural
+                    Treasures
+                </h2>
+                <a href="#famous" class="aBtn btn-lg">Most Famous Art</a>
+                <a href="#culture" class="aBtn btn-lg">Culture News</a>
+                <a href="#galleries" class="aBtn btn-lg">Galleries</a>
+            </div>
+        </div>
+    </div>
+    <!-- zavrsetak bannera  -->
+
+    <!-- rezultati pretrage  -->
+    <div class=" container">
+        <div class="row my-5">
+            <div id="rezultat" class="container card-container justify-content-center"></div>
+        </div>
+    </div>
+    <!-- zavrsetak rezultata pretrage  -->
+
+    <!-- carousel -->
+    <section class="my-5" id="famous">
+        <div class="container my-5">
+            <h1 class="artHeader my-5">Most Famous Art</h1>
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./home/slika1.jpg" alt="Image 1" class="d-block">
+                                <div class="carousel-caption">
+                                    <h2 class="cultureHeader">Mona Lisa</h2>
+                                    <p class="newsInfo">
+                                        "Mona Lisa" by Leonardo da Vinci is a renowned Renaissance
+                                        masterpiece
+                                        portraying Lisa del Giocondo, displayed at the Louvre Museum in
+                                        Paris.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./home/slika2.jpg" alt="Image 2" class="d-block">
+                                <div class="carousel-caption">
+                                    <h2 class="cultureHeader">The Night Watch</h2>
+                                    <p class="newsInfo">
+                                        "The Night Watch" (Dutch: De Nachtwacht) is a famous 1642 painting by Rembrandt
+                                        van Rijn, displayed at the Rijksmuseum. It depicts musketeers from the Dutch
+                                        Golden Age, likely members of Kloveniersdoelen.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./home/slika3.jpg" alt="Image 3" class="d-block">
+                                <div class="carousel-caption">
+                                    <h2 class="cultureHeader">The school of Athens</h2>
+                                    <p class="newsInfo">"The School of Athens" by Raphael is a renowned Renaissance
+                                        artwork in the
+                                        Vatican's Raphael Rooms. It portrays various philosophers and
+                                        represents key
+                                        societal principles: reason, goodness, beauty, and justice.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- zavrsetak carousel -->
+
+    <!-- pocetak vesti  -->
+    <section id="culture">
+        <div class="container my-5">
+            <h1 class="artHeader my-5 text-center">Culture News</h1>
+
+            <div class="row mb-5 align-items-stretch">
+                <div class="col-md-6 mb-3">
+                    <div class="row h-100">
+                        <div class="col-md-6 mb-3 order-1">
+                            <img src="./culturenews/culture1.jpg" alt="" class="img-fluid orderPhoto">
+                        </div>
+                        <div class="col-md-6 order-2 d-flex justify-content-center align-items-center">
+                            <div class="blurb p-3 h-100">
+                                <h2 class="cultureHeader">British Museum Trustees' Ethical Dilemma Over £50m BP Deal
+                                </h2>
+                                <p class="newsInfo">Contemplating the ethical and security implications of a £50m BP
+                                    deal, British Museum trustees grappled with complexities... <a
+                                        href="https://www.theartnewspaper.com/2023/12/19/british-museum-trustees-minutes-bp-sponsorship-deal"
+                                        target="_blank">More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="row h-100">
+                        <div class="col-md-6 mb-3 order-md-3">
+                            <img src="./culturenews/culture2.jpg" alt="" class="img-fluid orderPhoto">
+                        </div>
+                        <div class="col-md-6 order-md-4 d-flex justify-content-center align-items-center">
+                            <div class="blurb p-3 h-100">
+                                <h2 class="cultureHeader">Victoria and Albert Museum to Digitize Bayeux Tapestry with
+                                    French Collaboration</h2>
+                                <p class="newsInfo">Victoria and Albert Museum collaborates with French city to
+                                    digitally preserve and study the renowned Bayeux Tapestry from the Medieval era...
+                                    <a href="https://www.theartnewspaper.com/2022/05/19/digitising-bayeux-tapestry-victoria-and-albert-museum-work-with-french-city-research-famous-medieval-work"
+                                        target="_blank">More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5 align-items-stretch">
+                <div class="col-md-6 mb-3">
+                    <div class="row h-100">
+                        <div class="col-md-6 mb-3">
+                            <img src="./culturenews/culture3.jpg" alt="" class="img-fluid orderPhoto">
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div class="blurb p-3 h-100">
+                                <h2 class="cultureHeader">Law & Order Creator Donates 200+ Works to Metropolitan Museum
+                                </h2>
+                                <p class="newsInfo">The mastermind behind the TV drama 'Law & Order' generously gifts
+                                    over 200 pieces to the Metropolitan Museum... <a
+                                        href="https://www.theartnewspaper.com/2023/12/21/law-and-order-creator-dick-wolf-donation-metropolitan-museum"
+                                        target="_blank">More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="row h-100">
+                        <div class="col-md-6 mb-3">
+                            <img src="./culturenews/culture4.jpg" alt="" class="img-fluid orderPhoto">
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div class="blurb p-3 h-100">
+                                <h2 class="cultureHeader">Berlin’s state museums raise ticket prices as costs climb</h2>
+                                <p class="newsInfo">Amid rising costs, Berlin's state museums opt to increase ticket
+                                    prices for visitors... <a
+                                        href="https://www.theartnewspaper.com/2023/12/14/berlins-state-museums-raise-ticket-prices-as-costs-climb"
+                                        target="_blank">More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- zavrsetak vesti  -->
+
+    <!-- kartice -->
+    <section id="galleries">
+        <div class="container my-5">
+            <h1 class="artHeader my-5">The Latest Significant Galleries</h1>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 col-sm-6 my-4">
+                    <div class="card m-auto h-100" style="position: relative;">
+                        <img class="card-img-top" src="./home/gallery1.jpg" alt="Card image cap">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h2 class="cultureHeader text-center">Alfonso Artiaco</h2>
+                            <p class="newsInfo card-text">Alfonso Artiaco, aged 22, debuted his Pozzuoli
+                                gallery
+                                in 1986, exhibiting collections by acclaimed artists like Boetti,
+                                Warhol, and others.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info m-2"><a href="https://www.alfonsoartiaco.com/en"
+                                        target="_blank" class="text-center text-light text-decoration-none"> More
+                                        info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-sm-6 my-4">
+                    <div class="card m-auto h-100" style="position: relative;">
+                        <img class="card-img-top" src="./home/gallery2.jpg" alt="Card image cap">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h2 class="cultureHeader text-center">Christophe Guye Galerie</h2>
+                            <p class="newsInfo card-text">
+                                Established in 2006, the gallery showcases artists blending
+                                photography
+                                into contemporary art, hosting multiple exhibitions and
+                                collaborating
+                                with institutions and collectors.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info m-2"><a href="https://www.christopheguye.com"
+                                        target="_blank" class="text-center text-light text-decoration-none"> More
+                                        info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-sm-6 my-4">
+                    <div class="card m-auto h-100" style="position: relative;">
+                        <img class="card-img-top" src="./home/gallery3.jpeg" alt="Card image cap">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h2 class="cultureHeader text-center">Galleri Magnus Karlsson</h2>
+                            <p class="newsInfo card-text">Founded in 1990, Galleri Magnus Karlsson initially
+                                in
+                                Västerås, gained acclaim as Sweden's captivating contemporary art
+                                space,
+                                relocating to Stockholm in 1997.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info m-2"><a href="https://www.gallerimagnuskarlsson.com"
+                                        target="_blank" class="text-center text-light text-decoration-none"> More
+                                        info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-sm-6 my-4">
+                    <div class="card m-auto h-100" style="position: relative;">
+                        <img class="card-img-top" src="./home/gallery4.jpg" alt="Card image cap">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h2 class="cultureHeader text-center">Mobius Gallery</h2>
+                            <p class="newsInfo card-text">Since 2015, Mobius Gallery champions Eastern
+                                European
+                                art, fostering dialogue and collaboration through exhibitions,
+                                talks,
+                                and publications, becoming a pivotal Romanian art hub.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info m-2"><a href="https://www.mobius-gallery.com"
+                                        target="_blank" class="text-center text-light text-decoration-none"> More
+                                        info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-sm-6 my-4">
+                    <div class="card m-auto h-100" style="position: relative;">
+                        <img class="card-img-top" src="./home/gallery5.jpg" alt="Card image cap">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h2 class="cultureHeader text-center">Walter Storms Galerie</h2>
+                            <p class="newsInfo card-text">Walter Storms Gallery, established in 1977 by
+                                Walter
+                                Storms, stands as a premier international art institution. Renowned
+                                for
+                                its representation of influential ZERO artists pivotal in post-war
+                                art,
+                                it specializes in contemporary, concrete, and conceptual art. </p>
+                            <div class="text-center">
+                                <button class="btn btn-info m-2"><a href="https://www.storms-galerie.de" target="_blank"
+                                        class="text-center text-light text-decoration-none"> More info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-sm-6 my-4">
+                    <div class="card m-auto h-100" style="position: relative;">
+                        <img class="card-img-top" src="./home/gallery6.jpg" alt="Card image cap">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h2 class="cultureHeader text-center">Dorotheum</h2>
+                            <p class="newsInfo card-text">Established in 1707 by Emperor Joseph I, Dorotheum
+                                is
+                                among the oldest auction houses worldwide, embodying centuries of
+                                Viennese history in its magnificent Palais Dorotheum.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info m-2"><a href="https://www.dorotheum.com" target="_blank"
+                                        class="text-center text-light text-decoration-none"> More info</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- zavrsetak kartica -->
+
+
+    <!-- pocetak footera -->
+    <footer>
+        <div class="footer-wrapper">
+            <section class="container content-section footer">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr class="sem-separator-footer profile-hide" />
+                        <div class="row profile-hide">
+                            <div class="col-md-5 newsletter mt-sm-5">
+                                <span class="subscription-form">
+                                    <h3 class="cultureHeader">Newsletter</h3>
+                                    <p class="newsInfo">If you’re interested in Europe’s cultural heritage, sign up for
+                                        our monthly
+                                        newsletter.</p>
+                                    <form action="" id="NewsletterForm" method="post">
+                                        <div class="row p-3">
+                                            <div class="col-xs-6">
+                                                <input type="email" class="form-control input-lg" id="email"
+                                                    name="email" placeholder="Enter email">
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <button type="submit" class="btn btn-info footerBtn">Subscribe</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </span>
+                            </div>
+                            <div class="col-md-3  social mt-sm-5">
+                                <h3 class="cultureHeader">Follow us on</h3>
+                                <a href="http://www.instagram.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg>
+                                </a>
+                                <a href="http://twitter.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                    </svg>
+                                </a>
+                                <a href="http://youtube.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                                    </svg>
+                                </a>
+                                <a href="http://facebook.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-md-3 mt-sm-5 mission">
+                                <h3 class="cultureHeader">Our mission</h3>
+                                <p class="newsInfo">EuroTreasure's mission is to spotlight European museums, fostering
+                                    cultural
+                                    understanding and offering accessible exploration of art and
+                                    history. We aim to
+                                    connect global audiences with Europe's rich heritage, promoting
+                                    education,
+                                    inspiration, and the sharing of significant stories found within
+                                    these museums.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <hr class="sem-separator-footer" />
+                        <p class="newsInfo footer-copy">Museums © 2023, All rights reserved <a
+                                href="dist/contact.html">Contact us</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <!-- zavrsetak footera -->
+
+    <!-- dugme za vrh  -->
+    <button type="button" class="btn btn-info btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./src/translate.js"></script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>

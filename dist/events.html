@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>EuroTreasure-Events</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../events/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- pocetak navbara -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="../index.html">
+            <img src="../home/logo.png" alt="logo" class="navbar-brand">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item d-flex align-items-center">
+                    <div id="google_translate_element" class="text-center"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">HOME </a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        EXPLORE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="exhibitions.html">EXHIBITIONS</a>
+                        <a class="dropdown-item active" href="events.html">EVENTS<span
+                                class="sr-only">(current)</span></a>
+                        <a class="dropdown-item" href="museums.html">MUSEUMS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item target">
+                    <a class="nav-link" href="login.html">LOG IN/JOIN</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input type="search" placeholder="Search" aria-label="Search" id="searchInput"
+                        class="form-control mr-sm-2">
+                    <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+    <!-- zavrsetak navbara -->
+
+    <!-- banner  -->
+    <div class="container-fluid bannerHome">
+        <div class="row text-center bannerContent ">
+            <div class="col">
+                <h1 class="programsHeader1">EVENTS</h1>
+                <a href="#current" class="aBtn">Current Events</a>
+                <a href="#coming" class="aBtn">Coming Soon</a>
+            </div>
+        </div>
+    </div>
+    <!-- zavrsetak bannera  -->
+
+    <!-- rezultati pretrage  -->
+    <div class=" container">
+        <div class="row">
+            <div id="rezultat" class="container card-container justify-content-center"></div>
+        </div>
+    </div>
+    <!-- kraj pretrage  -->
+
+    <!-- current events  -->
+    <section>
+        <div class="container my-5">
+            <h1 class="artHeader" id="current">Current Events</h1>
+            <div class="row g-4 my-5">
+                <div class="col-12 col-md-8 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event1.jpg" class="card-img-top img-fluid" alt="Slika 1">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Divina Simulacra</h5>
+                            <p class="newsInfo card-text">11 December 2023 to 30 June 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/xPyDVQhwBKvN1gn86"
+                                    target="_blank">Piazzale degli Uffizi, 6, 50122 Firenze , Italy</a></p>
+                            <p class="newsInfo card-text">Sculptures like the Medici Venus, the Wrestlers, Marsyas,
+                                and the Knife Grinder from the Uffizi have been temporarily relocated to the ground
+                                floor rooms of the Vasari Museum. Visitors can now see and admire these famous
+                                sculptures up close, appreciating their full beauty.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.uffizi.it/en/events/divina-simulacra"
+                                        class="text-light text-decoration-none" target="_blank">More info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event2.jpg" class="card-img-top img-fluid " alt="Slika 2">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Winter Market Schloßplatz Berlin Mitte</h5>
+                            <p class="newsInfo card-text">1 December 2023 to 7 January 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/Wn8U62oSe2E5xJ6H7"
+                                    target="_blank">Schloßplatz, 10178 Berlin,Germany</a></p>
+                            <p class="newsInfo card-text">
+                                Starting December 1, 2023, visitors in Berlin-Mitte can enjoy a winter market on
+                                Schloßplatz with beautifully lit facades, international specialties, and artisanal
+                                crafts. The square becomes a new gathering spot to celebrate the year's end with family
+                                or friends, offering classic treats and gifts against the backdrop of iconic Berlin
+                                landmarks.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.humboldtforum.org/de/programm/laufzeitangebot/markt/wintermarkt-schlossplatz-berlin-mitte-105384/"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 my-5">
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event9.jpg" class="card-img-top img-fluid" alt="Slika 1">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Caravage</h5>
+                            <p class="newsInfo card-text"><strong>ONLY</strong> 7 January 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/WBX71YjToWGwEKyt6"
+                                    target="_blank">Via
+                                    1 Parv. des Droits de l'Homme, 57020 Metz, France</a></p>
+                            <p class="newsInfo card-text">
+                                The painting "Narcissus" (1597-1599) was discovered and seen by Jacques Lacan in Rome in
+                                1970. Although Lacan did not comment on it in his seminars, its subject fascinated many
+                                artists and psychoanalysts over the years. The exhibition begins with Lacan's theory of
+                                the mirror stage, exemplified by Caravaggio's masterpiece "Narcissus" from the late 16th
+                                century, explored further by Yannick Haenel in his book "La Solitude Caravage".</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.centrepompidou-metz.fr/en/programme/conference/caravage"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event8.jpg" class="card-img-top img-fluid " alt="Slika 2">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Picasso 1906
+                            </h5>
+                            <p class="newsInfo card-text">16 November 2023 to 7 February 2024 </p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/2cnuKQV5k4DngwZJ6"
+                                    target="_blank">C. de Sta. Isabel, 52, Centro, 28012 Madrid, Spain</a></p>
+                            <p class="newsInfo card-text">The lecture series "Picasso 1906: The Great Transformation"
+                                revolves around the homonymous exhibition held at the Museum from November 15, 2023, to
+                                March 4, 2024. Featuring prominent international specialists such as Eugenio Carmona,
+                                Cécile Debray, Tamar Garb, Jèssica Jaques Pi, Patricia Leighten, Robert Lubar, and
+                                others, the program aims to revisit Picasso's origins through a contemporary lens.
+                            </p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.museoreinasofia.es/actividades/picasso-1906-gran-transformacion"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event7.jpg" class="card-img-top img-fluid " alt="Slika 2">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Meanings
+                            </h5>
+                            <p class="newsInfo card-text">12 December 2023 to 14 April 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/6ENGGo8EwevRUchi8"
+                                    target="_blank">Dionysiou Areopagitou 15, Athina 117 42, Greece</a></p>
+                            <p class="newsInfo card-text">The Acropolis Museum's exhibition "Meanings" intricately
+                                intertwines six thematic units - Time, Nature, Deities, Human Nature, Institutions, and
+                                Allegories. Through guided tours led by museum archaeologists, visitors explore
+                                remarkable artworks personifying concepts and depicting allegories across different
+                                historical periods, connecting Antiquity to Byzantium, the Renaissance, and contemporary
+                                times.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.theacropolismuseum.gr/en/thematikes-paroysiaseis/noemata"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- zavrsetak current eventsa  -->
+
+    <!-- coming soon  -->
+    <section>
+        <div class="container my-5">
+            <h1 class="artHeader" id="coming">Coming Soon</h1>
+            <div class="row g-4 my-5">
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event3.jpg" class="card-img-top img-fluid" alt="Slika 1">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Legion
+                                Life In The Roman Army
+                            </h5>
+                            <p class="newsInfo card-text">1 February 2024 to 23 June 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/Yw83jiMn7dSqcLMp6"
+                                    target="_blank">Great Russell St, London WC1B 3DG, UK</a></p>
+                            <p class="newsInfo card-text">While males of noble birth were expected to serve as part-time
+                                soldiers, the bulk of the Roman army was a professional army of commoners. Most stories
+                                of the Roman empire describe the history of powerful men but Legion takes a different
+                                course</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.britishmuseum.org/exhibitions/legion-life-roman-army"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event4.jpg" class="card-img-top img-fluid " alt="Slika 2">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">La Gacilly Photo Festival</h5>
+                            <p class="newsInfo card-text">1 July 2024 to 1 October 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/SBPE8CuP2w1oxn7NA"
+                                    target="_blank">Pl. de la Ferronnerie, 56200 La Gacilly, France</a></p>
+                            <p class="newsInfo card-text">Created in 2004 by Jacques Rocher, now President of the Yves
+                                Rocher Foundation, the Peoples and Nature Photo Festival is a socially aware event at
+                                the crossroads between the art world and photojournalism. The aim is to invite visitors
+                                to think about the future of the planet and sustainable development issues.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.festivalphoto-lagacilly.com/en"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 my-5">
+                <div class="col-12 col-md-8 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event5.jpg" class="card-img-top img-fluid" alt="Slika 1">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Vincent on Friday</h5>
+                            <p class="newsInfo card-text"><strong>ONLY</strong> 23 February 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/BqtoYyfT65xM25Vi9"
+                                    target="_blank">Via
+                                    Museumplein 6, 1071 DJ Amsterdam,Netherlands</a></p>
+                            <p class="newsInfo card-text">
+                                Vincent on Friday is a unique evening event in collaboration with young, creative
+                                talents from Amsterdam, featuring live performances, DJs, workshops, talks and much
+                                more.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.vangoghmuseum.nl/en/visit/whats-on/vincent-on-friday"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card h-100" style="position: relative;">
+                        <img src="../events/event6.jpg" class="card-img-top img-fluid " alt="Slika 2">
+                        <div class="card-body"
+                            style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <h5 class="cultureHeader card-title">Historiskt samtal
+                            </h5>
+                            <p class="newsInfo card-text"><strong>ONLY</strong> 17 January 2024</p>
+                            <p class="newsInfo card-text"><a href="https://maps.app.goo.gl/Dxw7kSBLaEniefW68"
+                                    target="_blank">76
+                                    Galärvarvsvägen 14, 115 21 Stockholm, Sweden</a></p>
+                            <p class="newsInfo card-text">SVT's major initiative "The History of Sweden" allows viewers
+                                to trace Sweden's history from the Ice Age to modern times – including an inside look at
+                                the Vasa ship.
+
+                                During spring, the museum invites participating historians to give talks during
+                                afternoon tea. Additionally, two evenings will feature in-depth discussions on major
+                                issues of the 17th century.</p>
+                            <div class="text-center">
+                                <button class="btn btn-info">
+                                    <a href="https://www.vasamuseet.se/besok/kalender/program/varens-program-23/17-januari-krig-och-kolonialism2"
+                                        class="text-center text-light text-decoration-none" target="_blank">More
+                                        info</a>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- zavrsetak coming soon  -->
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-wrapper">
+            <section class="container content-section footer">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr class="sem-separator-footer profile-hide" />
+                        <div class="row profile-hide">
+                            <div class="col-md-5 newsletter mt-sm-5">
+                                <span class="subscription-form">
+                                    <h3 class="cultureHeader">Newsletter</h3>
+                                    <p class="newsInfo">If you’re interested in Europe’s cultural heritage, sign up for
+                                        our monthly
+                                        newsletter.</p>
+                                    <form action="/newsletter/checkin" id="NewsletterForm" method="post">
+                                        <div class="row p-3">
+                                            <div class="col-xs-6" style="padding-right: 0;">
+                                                <input type="email" class="form-control input-lg" id="email"
+                                                    name="email" placeholder="Enter email">
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <button type="submit" class="btn btn-info footerBtn">Subscribe</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </span>
+                            </div>
+                            <div class="col-md-3  social mt-sm-5">
+                                <h3 class="cultureHeader">Follow us on</h3>
+                                <a href="http://www.instagram.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg>
+                                </a>
+                                <a href="http://twitter.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                    </svg>
+                                </a>
+                                <a href="http://youtube.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                                    </svg>
+                                </a>
+                                <a href="http://facebook.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill="white"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-md-3 mt-sm-5 mission">
+                                <h3 class="cultureHeader">Our mission</h3>
+                                <p class="newsInfo">EuroTreasure's mission is to spotlight European museums, fostering
+                                    cultural
+                                    understanding and offering accessible exploration of art and history. We aim to
+                                    connect global audiences with Europe's rich heritage, promoting education,
+                                    inspiration, and the sharing of significant stories found within these museums.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <hr class="sem-separator-footer" />
+                        <p class="newsInfo footer-copy">Museums © 2023, All rights reserved <a
+                                href="contact.html">Contact us</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- kraj footer  -->
+
+    <!-- dugme za vrh  -->
+    <button type="button" class="btn btn-info btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../src/translate.js"></script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
